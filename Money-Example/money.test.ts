@@ -8,3 +8,6 @@ test("test multiplication", () => {
     product = five.times(3);
     expect(product.amount).toBe(product.amount);
 })
+test("test equaliy", () => {
+    expect(new Dollar(5).equals(new Dollar(5))).toBe(true);
+})
