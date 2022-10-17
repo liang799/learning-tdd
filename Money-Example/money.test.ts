@@ -9,6 +9,7 @@ test("test multiplication", () => {
 
 /* Triangulation: use it only when uncertain on how to refactor */
 test("test equality", () => {
+    // if equality fails, it will affect multiplication
     expect(new Dollar(5).equals(new Dollar(5))).toBe(true);
     expect(new Dollar(5).equals(new Dollar(6))).toBe(false);
 })
