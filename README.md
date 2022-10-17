@@ -10,4 +10,4 @@ Learning TDD by reading the book: TDD by Example
 ## Techniques
 - **Fake it:**  If something goes wrong
 - **Obvious implementation:**  When all is well
-- **Creating a formula:** generalizing things when there are 2 test cases
+- **Creating a formula:** adding another test case and generalize the 2 cases when uncertain on how to refactor

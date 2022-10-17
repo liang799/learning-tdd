@@ -8,7 +8,9 @@ test("test multiplication", () => {
     product = five.times(3);
     expect(product.amount).toBe(product.amount);
 })
-test("test equaliy", () => {
+
+/* Triangulation: use it only when uncertain on how to refactor */
+test("test equality", () => {
     expect(new Dollar(5).equals(new Dollar(5))).toBe(true);
     expect(new Dollar(5).equals(new Dollar(6))).toBe(false);
 })
