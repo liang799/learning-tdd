@@ -8,5 +8,6 @@ Learning TDD by reading the book: TDD by Example
 - After passing the tests, then clean up the code
 
 ## Techniques
-- Fake it:  If something goes wrong
-- Obvious implementation:  When all is well
+- **Fake it:**  If something goes wrong
+- **Obvious implementation:**  When all is well
+- **Creating a formula:** generalizing things when there are 2 test cases
