@@ -1,5 +1,6 @@
 import { Dollar } from "./Dollar";
 import { test, afterAll, beforeAll, describe, expect, it } from "@jest/globals";
+import { Franc } from "./Franc";
 
 test("test multiplication", () => {
     const five = new Dollar(5);
@@ -12,4 +13,10 @@ test("test equality", () => {
     // if equality fails, it will affect multiplication
     expect(new Dollar(5).equals(new Dollar(5))).toBe(true);
     expect(new Dollar(5).equals(new Dollar(6))).toBe(false);
+})
+
+test("test Franc Multiplication", () => {
+    const five = new Franc(5);
+    expect(five.times(2)).toBe(new Franc(10));
+    expect(five.times(3)).toBe(new Franc(15));
 })
