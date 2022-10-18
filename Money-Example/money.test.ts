@@ -4,8 +4,8 @@ import { Franc } from "./Franc";
 
 test("test multiplication", () => {
     const five = new Dollar(5);
-    expect(five.times(2)).toBe(new Dollar(10));
-    expect(five.times(3)).toBe(new Dollar(15));
+    expect(five.times(2)).toEqual(new Dollar(10));
+    expect(five.times(3)).toEqual(new Dollar(15));
 })
 
 /* Triangulation: use it only when uncertain on how to refactor */
@@ -17,6 +17,6 @@ test("test equality", () => {
 
 test("test Franc Multiplication", () => {
     const five = new Franc(5);
-    expect(five.times(2)).toBe(new Franc(10));
-    expect(five.times(3)).toBe(new Franc(15));
+    expect(five.times(2)).toEqual(new Franc(10));
+    expect(five.times(3)).toEqual(new Franc(15));
 })
